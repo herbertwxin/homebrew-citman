@@ -1,8 +1,8 @@
 class Citman < Formula
   desc "Citman: A simple citation manager"
   homepage "https://github.com/herbertwxin/Citman"
-  url "https://github.com/herbertwxin/Citman/releases/download/v0.2/Citman-v0.2.tar.gz"
-  sha256 "e920050f494b75541d4554fea18f06a9ed1d48c68b7039756b2122142e5ca9a6"
+  url "https://github.com/herbertwxin/Citman/releases/download/v0.3/Citman-v0.3.tar.gz"
+  sha256 "e3df0d5669829f073adbe0b3ca1f56ac482d0408044d7576fb5b8919dd0e64c9"
   license "MIT"
 
   depends_on xcode: ["14.0", :build]
