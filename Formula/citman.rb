@@ -14,6 +14,6 @@ class Citman < Formula
   end
 
   test do
-    system "#{bin}/Citman", "--help"
+    assert_match "Citman", shell_output("#{bin}/Citman --help")
   end
 end
